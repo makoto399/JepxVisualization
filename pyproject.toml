@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = "kk"
+authors = ["None"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.4"
+matplotlib = "^3.8.2"
+scipy = "^1.11.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+version: "3"
+services:
+  jepx_prediction:
+    volumes:
+      - .:/home/user/JepxPrediction
+    build: .
+    container_name: "jepx_prediction"
+    command: /bin/bash
