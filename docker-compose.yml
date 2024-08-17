@@ -1,6 +1,6 @@
 version: "3"
 services:
-  jepx_prediction:
+  jepx_visualization:
     volumes:
       - .:/home/user/JepxVisualization
     build: .
