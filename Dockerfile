@@ -16,9 +16,9 @@ ENV PATH /root/.local/bin:$PATH
 # Poetryが仮想環境を生成しないようにする
 RUN poetry config virtualenvs.create false
 
-# JepxPrediction dirの作成
-RUN mkdir /home/user/JepxPrediction
-WORKDIR /home/user/JepxPrediction
+# JepxVisualization dirの作成
+RUN mkdir /home/user/JepxVisualization
+WORKDIR /home/user/JepxVisualization
 
 # poetryのinstall
 COPY poetry.lock ./poetry.lock

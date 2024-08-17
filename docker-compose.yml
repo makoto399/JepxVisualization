@@ -2,7 +2,7 @@ version: "3"
 services:
   jepx_prediction:
     volumes:
-      - .:/home/user/JepxPrediction
+      - .:/home/user/JepxVisualization
     build: .
-    container_name: "jepx_prediction"
+    container_name: "jepx_visualization"
     command: /bin/bash
